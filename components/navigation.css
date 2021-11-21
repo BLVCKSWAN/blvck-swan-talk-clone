@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0%;
   width: 100%;
-  border-top: 1px solid var(--dark-jade);
+  border-top: 1px solid var(--border-color2);
 }
 
 .navigation__list {
@@ -12,13 +12,23 @@
   height: 90px;
 }
 
-.navigation__item {
-  position: relative;
-}
-
 .navigation__link i {
   font-size: 30px;
   color: var(--dark-jade);
+  transform: translateY(80px);
+  animation: navAppear 0.3s ease-in-out forwards;
+}
+
+.navigation__item:nth-child(2) i {
+  animation-delay: 0.1s;
+}
+
+.navigation__item:nth-child(3) i {
+  animation-delay: 0.2s;
+}
+
+.navigation__item:last-child i {
+  animation-delay: 0.3s;
 }
 
 .navigation__item {
@@ -28,8 +38,18 @@
   width: 100%;
   height: 100%;
   background-color: var(--black);
+  position: relative;
 }
 
 .navigation__item--visited i {
   color: var(--beige);
+}
+
+@keyframes navAppear {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0px);
+  }
 }

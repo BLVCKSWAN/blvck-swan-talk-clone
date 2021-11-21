@@ -13,9 +13,44 @@
 
 .badge__nav {
   position: absolute;
-  top: 20px;
-  right: 43px;
-  color: var(--ivory);
-  background-color: tomato;
+  top: 15px;
+  right: 38px;
+  color: var(--black);
   border: none;
+  transform: translateY(80px);
+  animation: navAppear 0.3s ease-in-out forwards;
+  animation-delay: 0.1s;
+}
+
+.badge__nav i {
+  color: #bfbdb4;
+}
+
+.badge--visited i {
+  color: var(--dark-jade);
+}
+
+@keyframes navAppear {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes badgeRotation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.badge--ani {
+  animation: badgeRotation 3s ease-in-out infinite;
 }
