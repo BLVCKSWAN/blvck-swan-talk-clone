@@ -8,10 +8,12 @@
 @import "/components/navigation.css";
 @import "/components/user.css";
 @import "/components/badge.css";
+@import "/components/other-icon-set.css";
 
 /* Screens */
 @import "/screens/index.css";
 @import "/screens/friends.css";
+@import "/screens/find.css";
 
 body {
   font-family: linotype-didot, serif;

@@ -1,0 +1,21 @@
+.other-icon-set {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.other-icon-set__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-icon-set__wrap i {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.other-icon-set__wrap span {
+  color: var(--beige);
+}
