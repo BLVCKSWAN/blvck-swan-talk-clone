@@ -47,7 +47,7 @@
 }
 
 .login-form__user::placeholder {
-  color: var(--ivory);
+  color: var(--beige);
 }
 
 .login-form__submit-btn {

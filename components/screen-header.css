@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .screen-header h1 {
@@ -15,4 +16,12 @@
   font-size: 20px;
   margin-left: 25px;
   color: var(--beige);
+}
+
+.screen-header__icons i:last-child {
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.screen-header__icons i:last-child:hover {
+  text-shadow: 0px 0px 20px white, 0px 0px 30px white;
 }

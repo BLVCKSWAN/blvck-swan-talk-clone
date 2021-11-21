@@ -1,0 +1,21 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 23px;
+  background-color: var(--dark-jade);
+  border-radius: 50%;
+  font-size: 15px;
+  color: var(--ivory);
+  border: 2px solid var(--black);
+}
+
+.badge__nav {
+  position: absolute;
+  top: 20px;
+  right: 43px;
+  color: var(--ivory);
+  background-color: tomato;
+  border: none;
+}
