@@ -1,0 +1,62 @@
+.status-bar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 5px 10px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--black);
+  color: whitesmoke;
+}
+
+.status-bar div {
+  width: 33%;
+}
+
+.status-bar div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar div:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.status-bar__agency {
+  display: flex;
+  align-items: center;
+}
+
+.status-bar__agency span {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.status-bar__agency img {
+  width: 14px;
+}
+
+.status-bar__time span {
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+.status-bar__status {
+  display: flex;
+  align-items: center;
+}
+
+.status-bar__status span {
+  font-size: 13px;
+}
+
+.status-bar__status i {
+  color: whitesmoke;
+  margin-left: 3px;
+}
+
+.status-bar__status i:last-child {
+  font-size: 10px;
+}

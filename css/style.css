@@ -1,47 +1,15 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import "variables.css";
+
+/* Components */
+@import "/components/status-bar.css";
+
+/* Screens */
+@import "/screens/index.css";
 
 body {
   font-family: "GFS Didot", serif;
   font-family: "Nanum Gothic", sans-serif;
-}
-
-span {
-  color: white;
-}
-
-.background {
-  height: 100vh;
-  width: 100vw;
-  background-image: url("/src/background-image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  top: 0%;
-}
-
-.status-bar {
-  display: flex;
-}
-
-.status-bar div {
-  width: 33%;
-}
-
-.status-bar div:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-
-.status-bar div:last-child {
-  display: flex;
-  justify-content: end;
-}
-
-.status-bar__agency img {
-  width: 15px;
-}
-
-.welcome-container {
-  margin-top: 100px;
+  background-color: var(--black);
 }
