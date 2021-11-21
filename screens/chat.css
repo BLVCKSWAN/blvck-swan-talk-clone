@@ -1,6 +1,10 @@
-.chat-background-color {
-  background-image: url("/src/swan-bg.jpeg");
-  background-size: cover;
+.chat-background-img {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .alt-header__column:last-child i {
@@ -27,9 +31,23 @@
   border-radius: 20px;
 }
 
+@keyframes messageAppear {
+  from {
+    transform: translateX(-250px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 100;
+  }
+}
+
 .message {
   display: flex;
   align-items: center;
+  transform: translateX(-250px);
+  animation: messageAppear 1s ease-in-out forwards;
+  opacity: 0;
 }
 
 .message__avatar {
@@ -64,10 +82,25 @@
   font-size: 14px;
 }
 
+@keyframes replyAppear {
+  from {
+    transform: translateX(250px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 100;
+  }
+}
+
 .reply {
   display: flex;
   flex-direction: row-reverse;
   justify-content: end;
+  transform: translateX(250px);
+  animation: replyAppear 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.8s;
 }
 
 .reply p {
