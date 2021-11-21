@@ -1,0 +1,51 @@
+.setting-header {
+  padding: 0px 25px;
+  padding-top: 45px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  align-items: center;
+}
+
+.setting-header div {
+  width: 33%;
+}
+
+.setting-header div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.setting-header div:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.setting-header h1 {
+  font-family: var(--didot);
+  color: var(--ivory);
+  font-size: 30px;
+}
+
+.setting-header i {
+  color: var(--beige);
+}
+
+.setting-list__item {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting-list__colmn i {
+  margin-right: 20px;
+}
+.setting-list__colmn {
+  font-size: 22px;
+}
+
+.division-line {
+  border: 1px solid var(--border-color2);
+  margin: 30px 0px;
+}
