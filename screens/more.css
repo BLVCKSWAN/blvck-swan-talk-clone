@@ -1,0 +1,33 @@
+.other-movies {
+  border-top: 1px solid var(--border-color2);
+  margin-top: 50px;
+  padding: 28px 0px;
+}
+
+.other-movies__movies {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.other-movies span {
+  font-size: 15px;
+}
+
+.other-movies__wrap {
+  margin-top: 20px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.other-movies__wrap img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.other-movies__wrap span {
+  font-family: var(--didot);
+  font-size: 12px;
+}

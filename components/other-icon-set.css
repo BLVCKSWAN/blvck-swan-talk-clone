@@ -19,3 +19,7 @@
 .other-icon-set__wrap span {
   color: var(--beige);
 }
+
+.token {
+  opacity: 0%;
+}
