@@ -1,0 +1,40 @@
+.alt-header {
+  padding: 45px 25px 20px 25px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  align-items: center;
+  position: fixed;
+}
+
+.alt-header--chat {
+  background-color: var(--dark-jade);
+  z-index: 1;
+}
+
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.alt-header h1 {
+  font-family: var(--didot);
+  color: var(--ivory);
+  font-size: 25px;
+  white-space: nowrap;
+}
+
+.alt-header i {
+  color: var(--beige);
+  font-size: 20px;
+}

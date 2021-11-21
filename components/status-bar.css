@@ -8,6 +8,7 @@
   box-sizing: border-box;
   background-color: var(--black);
   color: whitesmoke;
+  z-index: 2;
 }
 
 .status-bar div {
