@@ -1,0 +1,27 @@
+.navigation {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  border-top: 1px solid var(--dark-jade);
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+}
+
+.navigation__link i {
+  font-size: 30px;
+}
+
+.navigation__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--black);
+}

@@ -4,12 +4,25 @@
 
 /* Components */
 @import "/components/status-bar.css";
+@import "/components/screen-header.css";
+@import "/components/navigation.css";
+@import "/components/user.css";
 
 /* Screens */
 @import "/screens/index.css";
+@import "/screens/friends.css";
 
 body {
   font-family: "GFS Didot", serif;
   font-family: "Nanum Gothic", sans-serif;
   background-color: var(--black);
+  color: var(--ivory);
+}
+
+.background-color {
+  background-color: var(--deep-black);
+}
+
+.main-screen {
+  padding: 0px 25px;
 }

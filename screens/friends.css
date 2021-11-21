@@ -1,0 +1,41 @@
+.friends-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 12px 0px;
+  background-color: var(--black);
+  text-align: center;
+}
+
+.friends-display span {
+  margin: 0px 8px;
+  font-size: 15px;
+}
+
+.friends-display i:first-child {
+  font-size: 20px;
+  color: var(--beige);
+}
+
+.friends-display i:last-child {
+  font-size: 13px;
+  color: var(--beige);
+}
+
+.friends-top {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--border-color);
+  margin: 23px 0px;
+  padding: 12px 0px;
+}
+
+.friends-top span {
+  font-size: 15px;
+}
+
+.friends-top i {
+  color: var(--beige);
+}
