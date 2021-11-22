@@ -1,0 +1,68 @@
+@keyframes messageAppear {
+  from {
+    transform: translateX(-250px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 100;
+  }
+}
+
+@keyframes replyAppear {
+  from {
+    transform: translateX(250px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 100;
+  }
+}
+
+.animation1 {
+  transform: translateX(250px);
+  animation: replyAppear 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.animation2 {
+  transform: translateX(-250px);
+  animation: messageAppear 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.8s;
+}
+
+.animation3 {
+  transform: translateX(-250px);
+  animation: messageAppear 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 1.6s;
+}
+
+.animation4 {
+  transform: translateX(250px);
+  animation: replyAppear 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 2.2s;
+}
+
+.animation5 {
+  transform: translateX(-250px);
+  animation: messageAppear 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 3s;
+}
+
+.animation6 {
+  transform: translateX(-250px);
+  animation: messageAppear 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 3.8s;
+}
+
+.animation7 {
+    transform: translateX(250px);
+    animation: replyAppear 1s ease-in-out forwards;
+    opacity: 0;
+    animation-delay: 4.5s;

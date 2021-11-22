@@ -1,0 +1,48 @@
+@keyframes messageAppear {
+  from {
+    transform: translateX(-250px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 100;
+  }
+}
+
+@keyframes replyAppear {
+  from {
+    transform: translateX(250px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 100;
+  }
+}
+
+.animation1 {
+  transform: translateX(250px);
+  animation: replyAppear 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.animation2 {
+  transform: translateX(-250px);
+  animation: messageAppear 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 1.2s;
+}
+
+.animation3 {
+  transform: translateX(-250px);
+  animation: messageAppear 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 2s;
+}
+
+.animation4 {
+  transform: translateX(250px);
+  animation: replyAppear 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 3s;
+}

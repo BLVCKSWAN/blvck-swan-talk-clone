@@ -31,23 +31,11 @@
   border-radius: 20px;
 }
 
-@keyframes messageAppear {
-  from {
-    transform: translateX(-250px);
-    opacity: 0;
-  }
-  to {
-    transform: none;
-    opacity: 100;
-  }
-}
-
 .message {
+  margin-top: 10px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
-  transform: translateX(-250px);
-  animation: messageAppear 1s ease-in-out forwards;
-  opacity: 0;
 }
 
 .message__avatar {
@@ -71,46 +59,33 @@
 }
 
 .message__dialog p {
-  padding: 12px 15px;
+  padding: 8px 12px;
   background-color: var(--dark-jade);
   border-radius: 0px 15px 15px 15px;
   margin-right: 6px;
   font-size: 18px;
+  line-height: 25px;
 }
 
 .message__dialog span {
   font-size: 14px;
 }
 
-@keyframes replyAppear {
-  from {
-    transform: translateX(250px);
-    opacity: 0;
-  }
-  to {
-    transform: none;
-    opacity: 100;
-  }
-}
-
 .reply {
   display: flex;
   flex-direction: row-reverse;
   justify-content: end;
-  transform: translateX(250px);
-  animation: replyAppear 1s ease-in-out forwards;
-  opacity: 0;
-  animation-delay: 0.8s;
 }
 
 .reply p {
   background-color: var(--beige);
   color: var(--dark-jade);
   font-size: 18px;
-  padding: 12px 15px;
+  padding: 8px 12px;
   border-radius: 15px 0px 15px 15px;
   margin-left: 6px;
   font-weight: 600;
+  line-height: 25px;
 }
 
 .reply span {

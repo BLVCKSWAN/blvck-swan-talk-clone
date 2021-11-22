@@ -10,6 +10,8 @@
 @import "/components/badge.css";
 @import "/components/other-icon-set.css";
 @import "/components/alt-header.css";
+@import "/components/chat.css";
+@import "/components/no-mobile.css";
 
 /* Screens */
 @import "/screens/index.css";
