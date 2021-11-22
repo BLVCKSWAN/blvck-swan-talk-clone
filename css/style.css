@@ -3,23 +3,23 @@
 @import "variables.css";
 
 /* Components */
-@import "css/components/status-bar.css";
-@import "css/components/screen-header.css";
-@import "css/components/navigation.css";
-@import "css/components/user.css";
-@import "css/components/badge.css";
-@import "css/components/other-icon-set.css";
-@import "css/components/alt-header.css";
-@import "css/components/chat.css";
-@import "css/components/no-mobile.css";
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/navigation.css";
+@import "components/user.css";
+@import "components/badge.css";
+@import "components/other-icon-set.css";
+@import "components/alt-header.css";
+@import "components/chat.css";
+@import "components/no-mobile.css";
 
 /* Screens */
-@import "css/screens/index.css";
-@import "css/screens/friends.css";
-@import "css/screens/find.css";
-@import "css/screens/more.css";
-@import "css/screens/setting.css";
-@import "css/screens/chat.css";
+@import "screens/index.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/chat.css";
 body {
   font-family: linotype-didot, serif;
   font-family: "GFS Didot", serif;
